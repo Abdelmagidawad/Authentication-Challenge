@@ -16,7 +16,7 @@ export async function loginWithAxios(email, password) {
         },
       }
     );
-
+    
     localStorage.setItem("token", response.data.token);
     window.location.assign("./profile user/profile.html");
     console.log("login successfully");
