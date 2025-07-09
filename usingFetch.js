@@ -24,7 +24,7 @@ export async function loginWithFetch(email, password) {
     let data = await response.json();
 
     localStorage.setItem("token", data.token);
-    window.location.assign("./profile.html");
+    window.location.assign("./profile user/profile.html");
     console.log("login successfully");
   } catch (error) {
     Alert(error);

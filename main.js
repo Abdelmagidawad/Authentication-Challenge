@@ -16,8 +16,7 @@ btnLoginWithAxios.addEventListener("click", () => {
 });
 
 //Alert Massage
-let messageElement = document.querySelector(".message");
-
 export function Alert(text) {
+  let messageElement = document.querySelector(".message");
   messageElement.textContent = text;
 }
