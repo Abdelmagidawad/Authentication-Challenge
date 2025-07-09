@@ -6,7 +6,7 @@ tokenBox.textContent = `Your Token: ${token}`;
 
 function logout() {
   localStorage.removeItem("token");
-  window.location.assign("../login.html");
+  window.location.assign("../index.html");
 }
 
 btnLogout.addEventListener("click", logout);
